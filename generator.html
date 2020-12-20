@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>prayers</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="img/favicon.png">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <script>
+        var username = prompt("What's your name?");
+        var ideas = [
+            'Luc 6:31',
+            'jean 13:35',
+            'jean 15:13',
+            'Matthieu 22:37-40',
+            '1 Corinthiens 13 : 1-7',
+            '1 Corinthiens 13 : 13',
+            '1 Jean 4 : 7-8',
+            '1 Jean 4 : 19',
+            'Jérémie 29 : 11',
+            'Lamentations 3 : 22',
+            'Romains 4 : 21',
+            'Romains 8 : 28',
+            'Romains 8 : 38-39',
+            'Philippiens 4 : 13',
+            'Hébreux 4 : 16',
+            'Romains 8 : 1',
+            '1 Corinthiens 10 : 13',
+            '2 Corinthiens 5 : 17',
+            'Galates 2 : 20',
+            'Hébreux 12 : 1-2',
+            'Jacques 4 : 7',
+            'Jacques 5 : 16'
+        ];
+
+       /* var randomNumber = Math.floor(Math.random()*ideas.length);
+        var youridea = ideas[randomNumber];
+            document.write("<h1>Hello " + username + "," + " here's a verse for you: " + youridea + ".</h1>");*/
+
+
+            var randomNumber = Math.floor(Math.random()*ideas.length);
+        var youridea = ideas[randomNumber];
+        if (username==="kelly") {
+            document.write("<h1>Hello " + username + " Your life is sometimes hard but don't forget that Jesus loves forever," + "  and here's a verse for you: " + youridea + ".</h1>");
+            }
+          else {
+          	 document.write("<h1>Hello " + username + "," + " here's a verse for you: " + youridea + ".</h1>");
+          }  
+    </script>
+
+</head>
+
+<body>
+
+<a href="generator.html">Another one</a> <a href="index.html">Home</a>
+
+</body>
+
+</html>
